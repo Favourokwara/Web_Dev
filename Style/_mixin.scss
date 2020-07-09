@@ -1,0 +1,18 @@
+@mixin btn($clr,$wdt,$hgt) {
+    border: none;
+    border-radius: 25px;
+    background-color: $clr;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: $wdt;
+    height: $hgt;
+    position: absolute;
+}
+
+@mixin gridWin($col_1,$col_2,$rw_1,$rw_2){
+    grid-column-start: $col_1;
+    grid-column-end: $col_2;
+    grid-row-start: $rw_1;
+    grid-row-end: $rw_2;
+}
