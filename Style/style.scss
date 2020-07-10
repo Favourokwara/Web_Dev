@@ -82,13 +82,14 @@
 .addition{
     position: fixed;
     display: flex;
-    bottom: 40px;
-    right: 40px;
+    bottom: 80px;
+    right: 80px;
     button{
-        @include btn(white,30px,30px);
+        @include btn(white,40px,40px);
         box-shadow: 0.1px 0.1px 3px #0000004b;
     }
     #add{
         bottom: 10px;
+        border: 4px solid rgba(123, 199, 224, 0.7);
     }
 }
