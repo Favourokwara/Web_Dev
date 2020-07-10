@@ -52,7 +52,7 @@
 }
 
 #gallery div .btn_1:hover {
-  background-color: #c7171d;
+  background-color: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
 }
 
 #gallery div .btn_2 {
@@ -143,5 +143,32 @@
   -ms-grid-row: 8;
       grid-row-start: 8;
   grid-row-end: 12;
+}
+
+.addition {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 40px;
+  right: 40px;
+}
+
+.addition button {
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  -webkit-box-shadow: 0.1px 0.1px 3px #0000004b;
+          box-shadow: 0.1px 0.1px 3px #0000004b;
+}
+
+.addition #add {
+  bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
